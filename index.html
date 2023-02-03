@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Control Panel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="container">
+    <form action="#" id="form" class="form">
+        <h2>Password Builder</h2>
+        <div class="form-control">
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Enter want to create password" required>
+            <small>Error Message</small>
+        </div>
+         <div class="form-control">
+            <label for="password2">Confirm Password</label>
+            <input type="password" id="password2" placeholder="Enter again password" required>
+            <small>Error Message</small> 
+        </div>
+        <button type="submit" id="submit">Submit</button>
+       
+    </form>
+     <button id="reset">Random</button>
+   </div>
+
+   <div class="password-showarea">
+    <p class="praf"></p>
+    <p class="show-pass">Password only one minute is here!</p>
+   </div>
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
